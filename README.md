@@ -202,6 +202,7 @@ Recommended plugins:
 ## Tweaks
 
 These are basic settings for additional optimization.
+You can and should use these two together
 
 ### SteamOS optimization
 
@@ -285,11 +286,12 @@ To change the VRAM size needed to run UEFI (aka BIOS):
 ![Steam Deck UEFI](assets/tweaks-vram.jpg)
 
 > [!WARNING]
-> Games not compatible with this setting:
+> While most games are compatible with this tweak, some games are not compatible with this setting:
 > - **Red Dead Redemption 2**
+> - **and more**
 
 > [!IMPORTANT]
-> This setting reset to default after the UEFI update.
+> This setting resets to default after the UEFI update.
 
 ----
 
@@ -306,7 +308,7 @@ To change the VRAM size needed to run UEFI (aka BIOS):
 </details>
 
 > [!CAUTION]
-> Before installation **read all information on the repo** about this tweak and potential problems like a free space available, and can't go back to ext4 after the conversion process, flatpak issues...
+> **Before installation *read all information on the repo* about this tweak and potential problems like a free space available, and can't go back to ext4 after the conversion process, flatpak issues...**
 
 To install `SteamOS-Btrfs`:
 1. Switch your Steam Deck to `Desktop Mode`

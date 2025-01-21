@@ -129,7 +129,7 @@ Type your new password (*typed characters do not appear on the screen!*) and hit
 ---
 
 ### Enable SSH
-
+#### (Not necessary but useful)
 SSH allows you to remotely interact with your Steam Deck, so you can transfer games from another Windows/MacOS/Linux computer directly to your Steam Deck. You can also do helpful things like install mods, manage game configs, keep tabs on running processes, and other fun maintenance things.
 
 To enable SSH, follow these steps:
@@ -166,7 +166,7 @@ ssh deck@steamdeck.local
 
 ### Decky
 
-> Decky Loader is a homebrew plugin launcher for the Steam Deck. It can be used to stylize your menus, change system sounds, adjust your screen saturation, change additional system settings, and more.
+> Decky Loader is a homebrew plugin launcher for the Steam Deck. It can be used to stylize your menus, find great deals, change system sounds, adjust your screen saturation, change additional system settings, and more.
 
 [![](https://flat.badgen.net/badge/icon/decky-loader?icon=github&label)](https://github.com/SteamDeckHomebrew/decky-loader)
 
@@ -192,11 +192,11 @@ curl -L https://github.com/SteamDeckHomebrew/decky-installer/releases/latest/dow
 ![Decky](assets/homebrew-decky.jpg)
 
 Recommended plugins:
-- `AutoSuspend` – automatically suspend on low power
-- `DeckSettings` – browse recommended game settings
-- `HLTB for Deck` – show game lengths according to [HowLongToBeat](https://howlongtobeat.com)
-- `ProtonDB Badges` – show tappable [ProtonDB](https://www.protondb.com) badges on your game pages
-
+- `Controller Tools` – pair controllers and see exact battery percentages
+- `IsThereAnyDeal for Deck` – find where you can get the best deal on certain games in the Steam Store according to [IsThereAnyDeal](https://isthereanydeal.com)
+- `SteamGridDB` – select artwork for non-steam and steam games from [SteamGridDB](https://www.steamgriddb.com/)
+- `CSS Loader` – select custom themes for SteamOS
+- `Fantastic` – fan controls for SteamOS
 ---
 
 ## Tweaks
